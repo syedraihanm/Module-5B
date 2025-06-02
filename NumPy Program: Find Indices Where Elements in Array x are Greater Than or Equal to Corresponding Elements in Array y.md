@@ -1,3 +1,4 @@
+
 # # NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
 
 ## 🎯 Aim
@@ -14,8 +15,17 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
-
+```
+import numpy as np
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+great=np.where(x>y)
+equal=np.where(x==y)
+print(great)
+print(equal)
+```
 ## Output
+![image](https://github.com/user-attachments/assets/81e52bd2-cb07-4e41-9573-dc5f82f47fc3)
 
 ## Result
+Thus,the program has been executed successfully.
